@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h2>Registrar Pedido</h2>
+  <form action="index_3.php" method="post">
+    <label for="descripcion">Descripción:</label>
+    <input type="text" name="descripcion" required>
+    </br>
+    <label for="tipo">Tipo de pedido:</label>
+    <input type="text" name="tipo" required>
+    </br>
+    <label for="producto_pedido">Producto:</label>
+    <input type="text" name="producto_pedido" required>
+    </br>
+    <label for="unidades">Unidades:</label>
+    <input type="number" name="unidades" required min="1">
+    </br>
+    <label for="observaciones">Observaciones:</label>
+    <textarea name="observaciones"></textarea>
+    </br>
+    <button type="submit" name="crear_pedido">Crear Pedido</button>
+  </form>
+</body>
+</html>
